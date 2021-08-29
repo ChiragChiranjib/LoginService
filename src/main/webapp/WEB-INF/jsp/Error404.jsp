@@ -5,6 +5,9 @@
     <title>Error</title>
 </head>
 <body>
-Page taking too long to respond!
+<h1 style="color:DarkRed">
+    Page taking too long to respond!
+</h1>
+
 </body>
 </html>
