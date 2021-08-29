@@ -5,7 +5,7 @@
     <title>Input URL</title>
 </head>
 <style>
-    div {
+    .A {
         width: 300px;
         border: 8px darkblue;
         padding: 50px;
@@ -30,11 +30,11 @@
 <center>
 
 <form action="urlInput" method="get" name="Form" onsubmit="return validateForm()">
-    <div>
+    <fieldset class="A">
       URL:  <input type="text" name="URL">
 
     <input type= "submit">
-    </div>
+    </fieldset>
 </form>
 
 </center>
