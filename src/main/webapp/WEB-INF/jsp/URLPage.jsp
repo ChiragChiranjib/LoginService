@@ -5,11 +5,13 @@
     <title>Input URL</title>
 </head>
 <style>
-    .A {
-        width: 300px;
-        border: 8px darkblue;
-        padding: 50px;
-        margin: 20px;
+    #A{
+        border-width:6px;
+        padding:2em;
+        font-size: 1.1em;
+    }
+    input {
+        margin: .4rem;
     }
 </style>
 <body >
@@ -30,7 +32,7 @@
 <center>
 
 <form action="urlInput" method="get" name="Form" onsubmit="return validateForm()">
-    <fieldset class="A">
+    <fieldset id="A">
       URL:  <input type="text" name="URL">
 
     <input type= "submit">
