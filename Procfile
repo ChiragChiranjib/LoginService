@@ -1,1 +1,1 @@
-web: java -Dserver.port=8081 -war target/LoginService-0.0.1-SNAPSHOT.war
+web: java -Dserver.port=process.env.PORT -war target/LoginService-0.0.1-SNAPSHOT.war
