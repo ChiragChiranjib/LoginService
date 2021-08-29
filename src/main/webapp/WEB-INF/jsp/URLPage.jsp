@@ -28,15 +28,15 @@
     }
 </script>
 <center>
-    <div>
-<form action="urlInput" method="get" name="Form" onsubmit="return validateForm()">
 
+<form action="urlInput" method="get" name="Form" onsubmit="return validateForm()">
+    <div>
       URL:  <input type="text" name="URL">
 
     <input type= "submit">
-
-</form>
     </div>
+</form>
+
 </center>
 </body>
 </html>

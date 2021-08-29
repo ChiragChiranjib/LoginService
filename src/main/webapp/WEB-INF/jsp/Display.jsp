@@ -14,6 +14,10 @@
 <textarea rows="4" cols="50"
           name="url" disabled>${Response}
 </textarea>
+
+    <form action="/logout">
+        <button type="submit">Logout</button>
+    </form>
 </center>
 </body>
 </html>
