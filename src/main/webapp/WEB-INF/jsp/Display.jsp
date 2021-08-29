@@ -7,7 +7,7 @@
 </head>
 <body align="center">
 <textarea rows="4" cols="50"
-          name="url" disabled>[[${Response}]]
+          name="url" disabled>${Response}
 </textarea>
 </body>
 </html>
