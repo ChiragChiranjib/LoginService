@@ -4,17 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Response of URL</title>
-    button {
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
+    <style>
+        button {
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+    </style>
 </head>
 <body>
 <center>
@@ -28,7 +30,7 @@
 
 
     <form action="/logout">
-        <button class="ui-button" type="submit">Logout</button>
+        <button type="submit">Logout</button>
     </form>
 </center>
 </body>

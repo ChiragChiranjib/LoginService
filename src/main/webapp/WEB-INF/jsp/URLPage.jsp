@@ -13,6 +13,17 @@
     input {
         margin: .4rem;
     }
+    .button {
+         background-color: #008CBA;
+         border: none;
+         color: white;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         font-size: 16px;
+         margin: 4px 2px;
+         cursor: pointer;
+     }
 </style>
 <body >
 <h1 align="center" id="page" > </h1>
@@ -35,7 +46,7 @@
     <fieldset id="A">
       URL:  <input type="text" name="URL">
 
-    <input class="ui-button" type= "submit">
+    <input class="button" type= "submit">
     </fieldset>
 </form>
 
