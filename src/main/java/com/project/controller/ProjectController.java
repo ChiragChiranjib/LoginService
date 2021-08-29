@@ -26,8 +26,8 @@ public class ProjectController {
             @HystrixProperty(name="coreSize",value = "20"), @HystrixProperty(name="maxQueueSize", value="10")
             },
     commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000"),
-            @HystrixProperty(name= "circuitBreaker.requestVolumeThreshold",value = "1"),
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "7000"),
+            @HystrixProperty(name= "circuitBreaker.requestVolumeThreshold",value = "5"),
             @HystrixProperty(name= "circuitBreaker.errorThresholdPercentage", value="100"),
             @HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds",value = "5000")
     })
