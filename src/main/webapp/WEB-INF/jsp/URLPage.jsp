@@ -35,7 +35,7 @@
     <fieldset id="A">
       URL:  <input type="text" name="URL">
 
-    <input type= "submit">
+    <input class="ui-button" type= "submit">
     </fieldset>
 </form>
 
