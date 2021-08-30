@@ -32,8 +32,8 @@ public class ProjectController {
             @HystrixProperty(name="circuitBreaker.sleepWindowInMilliseconds",value = "9000")
     })
     @GetMapping("/urlInput")
-    public String urlPage(@RequestParam("URL") String url, Model model) throws InterruptedException {
-        Thread.sleep(5200);
+    public String urlPage(@RequestParam("URL") String url, Model model){
+
         sessionService.saveUrl(url, response);
         model.addAttribute("Response", response);
         return "Display";
