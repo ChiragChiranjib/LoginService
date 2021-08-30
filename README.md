@@ -16,8 +16,9 @@ FallbackMethod for this endpoint directs to Error404.jsp
 BulkHead Pattern is also applied with Thread pool properties such as,
 coreSize
 maxQueueSize
-// Done for fault tolerance and resilience of the App if at all the endpoint calls any external API while scaling
-// the Application 
+
+Done for fault tolerance and resilience of the App if at all the endpoint calls any external API while scaling
+the Application 
 
 ## Database
 
