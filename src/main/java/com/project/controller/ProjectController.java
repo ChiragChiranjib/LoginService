@@ -33,7 +33,7 @@ public class ProjectController {
     })
     @GetMapping("/urlInput")
     public String urlPage(@RequestParam("URL") String url, Model model) throws InterruptedException {
-
+        Thread.sleep(5200);
         sessionService.saveUrl(url, response);
         model.addAttribute("Response", response);
         return "Display";
